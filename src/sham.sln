@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sham", "sham.vcproj", "{FD03B248-1466-458B-A4AD-9422292BF13B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D48799CC-8BD4-4A1E-9E06-7DAB4B20817E} = {D48799CC-8BD4-4A1E-9E06-7DAB4B20817E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shamdll", "shamdll.vcproj", "{D48799CC-8BD4-4A1E-9E06-7DAB4B20817E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FD03B248-1466-458B-A4AD-9422292BF13B}.Debug.ActiveCfg = Debug|Win32
+		{FD03B248-1466-458B-A4AD-9422292BF13B}.Debug.Build.0 = Debug|Win32
+		{FD03B248-1466-458B-A4AD-9422292BF13B}.Release.ActiveCfg = Release|Win32
+		{FD03B248-1466-458B-A4AD-9422292BF13B}.Release.Build.0 = Release|Win32
+		{D48799CC-8BD4-4A1E-9E06-7DAB4B20817E}.Debug.ActiveCfg = Debug|Win32
+		{D48799CC-8BD4-4A1E-9E06-7DAB4B20817E}.Debug.Build.0 = Debug|Win32
+		{D48799CC-8BD4-4A1E-9E06-7DAB4B20817E}.Release.ActiveCfg = Release|Win32
+		{D48799CC-8BD4-4A1E-9E06-7DAB4B20817E}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
